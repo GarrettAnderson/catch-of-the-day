@@ -1,8 +1,12 @@
 import React from 'react'
 
-class App extends Component {
+class App extends React.Component {
   render() {
-    return <HelloWorld />
+    return (
+      <div className="catch-of-the-day">
+        <p>heyyy!</p>
+      </div>
+    )
   }
 }
 
