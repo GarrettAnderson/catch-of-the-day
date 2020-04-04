@@ -403,9 +403,8 @@ header.top h3:after {
 .catch-of-the-day > *:first-child {
     flex-shrink: 1;
     flex-basis: 50%;
-
-    /* -webkit-transform: translateX(50%) rotateY(6deg) translateX(-50%);
-    transform: translateX(50%) rotateY(6deg) translateX(-50%); */
+    -webkit-transform: translateX(50%) rotateY(6deg) translateX(-50%);
+    transform: translateX(50%) rotateY(6deg) translateX(-50%);
 }
 
 .catch-of-the-day > *:nth-child(2) {
@@ -419,9 +418,8 @@ header.top h3:after {
 .catch-of-the-day > *:last-child {
     flex-shrink: 1;
     flex-basis: 50%;
-
-    /* -webkit-transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
-    transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px); */
+    -webkit-transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
+    transform: translateX(-50%) rotateY(10deg) translateX(50%) scale(1.08) translateX(24px);
 }
 
 input#fold:not(:checked) ~ #main .catch-of-the-day > * {
