@@ -17,10 +17,10 @@ class App extends React.Component {
     // first reinstate our localStorage
     const localStorageRef = localStorage.getItem(params.storeId)
     console.log(localStorageRef)
-    this.ref = base.syncState(`${params.storeId}/fishes`, {
-      context: this,
-      state: 'fishes'
-    })
+    // this.ref = base.syncState(`${params.storeId}/fishes`, {
+    //   context: this,
+    //   state: 'fishes'
+    // })
   }
 
   componentDidUpdate() {
